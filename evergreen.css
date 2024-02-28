@@ -21,6 +21,11 @@
     --link-color: #6692a0;
     --link-external-color: #6692a0;
 
+    --accent-h: 118;
+    --accent-s: 30%;
+    --accent-l: 50%;
+    /* --accent-color-try: hsl(118, 30%, 50%); */
+
   }
 
 .theme-dark code[class*="language-"]
