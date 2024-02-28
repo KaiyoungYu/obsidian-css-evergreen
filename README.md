@@ -1,5 +1,5 @@
 # Evergreen
-
+(only dark mode!)
 - A specifically chosen color sets for my obsidian vault.
 - Accent color is green-toned. so-called evergreen.
 
