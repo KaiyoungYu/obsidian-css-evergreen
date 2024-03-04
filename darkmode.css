@@ -1,0 +1,46 @@
+.theme-dark {
+  --workspace-background-translucent: rgba(0, 0, 0, 0.01);
+
+  --background-primary: #1e1e1e;
+  --background-secondary: #1e2226;
+
+  --titlebar-background: #1e2226;
+  --titlebar-background-focused: #1e2226;
+  --ribbon-background: #1e2226;
+  --status-bar-background: #1e2226;
+
+  --text-normal: #e0e0e0;
+  --divider-color: rgba(0.9, 0.9, 0.9, 1.0);
+  --divider-width: 1;
+
+
+  --h1-color: #cc6a66;
+  --h2-color: #cc8253;
+  --h3-color: #ba994d;
+  --h4-color: #8d9a4d;
+  --h5-color: #679a7c;
+  --h6-color: #af7f9b;
+  --link-color: #7bdcdc;
+  --link-external-color: #7bdcdc;
+
+  --accent-h: 118;
+  --accent-s: 30%;
+  --accent-l: 50%;
+  /* --accent-color-try: hsl(118, 30%, 50%); */
+
+}
+
+.theme-dark code[class*="language-"]
+{
+  background-color: #272b2f;
+}
+
+.theme-dark pre[class*="language-"]
+{
+  background-color: #272b2f;
+}
+
+.theme-dark div[class*="HyperMD-codeblock-"]
+{
+background-color: #272b2f;
+}
