@@ -1,0 +1,76 @@
+/* turn off translucent window, set obsidian to dark mode */
+
+.theme-dark {
+  /* --workspace-background-translucent: rgba(0, 0, 0, 0.01); */
+  /* --workspace-background-translucent: "#0B0B0B8C"; */
+
+  --background-primary: #1e1e1e;
+  --background-secondary: #1e2226;
+
+  --titlebar-background: #1e2226;
+  --titlebar-background-focused: #3c556f;
+  --ribbon-background: #1e2226;
+  --status-bar-background: #1e2226;
+
+  --text-normal: #e0e0e0;
+  --divider-color: rgba(0.9, 0.9, 0.9, 1.0);
+  --divider-width: 1;
+
+
+  --h1-color: #cc6a66;
+  --h2-color: #cc8253;
+  --h3-color: #ba994d;
+  --h4-color: #8d9a4d;
+  --h5-color: #679a7c;
+  --h6-color: #af7f9b;
+  --link-color: #7bdcdc;
+  --link-external-color: #7bdcdc;
+
+  --nav-item-color: #dadada;
+
+  --accent-h: 118;
+  --accent-s: 30%;
+  --accent-l: 50%;
+  /* --accent-color-try: hsl(118, 30%, 50%); */
+}
+
+.theme-dark code[class*="language-"]
+{
+  background-color: #272b2f;
+}
+
+.theme-dark pre[class*="language-"]
+{
+  background-color: #272b2f;
+}
+
+.theme-dark div[class*="HyperMD-codeblock-"]
+{
+background-color: #272b2f;
+}
+
+.theme-dark .workspace {
+  backdrop-filter: brightness(0.4) blur(5px); /* filter for dark mode */
+  background-color: transparent;
+}
+
+.workspace-split.mod-root {
+  background-color: var(--background-primary);
+}
+
+.horizontal-main-container { /* below is the background image. Change it to whatever you want */
+  /* background: url(https://images.unsplash.com/photo-1591972729866-028644a72183?q=80&w=3346&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+  background-size: cover;
+  background-image: linear-gradient(180deg, #4a7466 0%, #9a8f4d 100%);
+
+}
+
+body { 
+  /* the background-primary makes the main note pane completely transparent. 
+  You can change it to be semi-transparent if you want. 
+  I changed background-secondary and divider-width because it
+  looks a bit cleaner in my opinion. You can delete those modifications if you want.*/
+      --background-primary: transparent;
+      --background-secondary: transparent;
+      --divider-width: 0px;
+  }
